@@ -4,7 +4,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 import joblib
 import os
 
-DATA_PATH = "data/raw/bank_churn.csv"
+DATA_PATH = "data/bank_churn.csv"
 PROCESSED_DIR = "models/"
 os.makedirs(PROCESSED_DIR, exist_ok=True)
 

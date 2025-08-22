@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from preprocessing import load_data, preprocess_data
 
 # Paths
-DATA_PATH = "data/raw/bank_churn.csv"
+DATA_PATH = "data/bank_churn.csv"
 MODEL_DIR = "models/"
 os.makedirs(MODEL_DIR, exist_ok=True)
 

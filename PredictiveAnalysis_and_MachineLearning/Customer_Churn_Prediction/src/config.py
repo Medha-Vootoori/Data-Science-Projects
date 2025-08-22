@@ -1,4 +1,4 @@
-RAW_DATA_PATH = "data/raw/bank_churn.csv"
+RAW_DATA_PATH = "data/bank_churn.csv"
 INTERIM_DATA_PATH = "data/interim/bank_churn_cleaned.csv"
 PROCESSED_DATA_PATH = "data/processed/bank_churn_final.csv"
 

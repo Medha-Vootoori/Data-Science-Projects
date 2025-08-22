@@ -13,7 +13,7 @@ FEATURES_PATH = "models/model_features.pkl"
 SCALER_PATH = "models/scaler.pkl"
 ENCODERS_PATH = "models/label_encoders.pkl"
 NUMERIC_PATH = "models/numeric_cols.pkl"
-DATA_PATH = "data/raw/bank_churn.csv"
+DATA_PATH = "data/bank_churn.csv"
 
 model = joblib.load(MODEL_PATH)
 model_features = joblib.load(FEATURES_PATH)
